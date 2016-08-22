@@ -17,6 +17,7 @@ rand_search <- train(y ~ ., data = train_dat,method = "svmRadial",
 rand_search
 plot(rand_search)
 ggplot(rand_search) + scale_x_log10() + scale_y_log10()
+
 getTrainPerf(rand_search)
 
 
