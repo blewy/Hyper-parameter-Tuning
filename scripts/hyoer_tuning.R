@@ -96,7 +96,7 @@ for (i in 1:4) {
   plot(m.gam, select = i)
 }
 
-### ---------- adatpative ....
+### ---------- adaptative ....
 
 # http://topepo.github.io/caret/adaptive.html
 
@@ -124,10 +124,6 @@ gbmFit.adaptative <- train(y = target,
                        metric = "ROC")
 gbmFit.adaptative
 plot(gbmFit.adaptative)
-
-
-# ------------- lccckxcm -------
-
 
 
 
